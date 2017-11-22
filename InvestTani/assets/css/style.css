@@ -1,0 +1,712 @@
+@font-face {
+    font-family: 'quicksand';
+    src: ('fonts/Quicksand-Bold.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand-regular';
+    src: ('fonts/Quicksand-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand-medium';
+    src: ('fonts/Quicksand-Medium.ttf');
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'quicksand';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'quicksand';
+}
+
+h2 {
+    color: #438930;
+}
+
+h1 {
+    color: #438930;
+}
+
+h3 {
+    color: #8dbf06;
+}
+
+h4 {
+    color: #438930;
+}
+
+.biru {
+    position: relative;
+    width: 100%;
+    background-color: #e7f7f4;
+    margin-top: -18px;
+    margin-right: 150px;
+}
+
+.hijau {
+    margin: 0 auto;
+
+    width: 100%;
+    height: 500px;
+
+    background-color: #d9eca7;
+}
+
+.nav {
+    margin: 19px;
+}
+
+.nav img {
+    float: left;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
+p {
+    color: #438930;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+.bacc {
+    background-color: #f1fbf9;
+    margin-top: -22px;
+}
+
+.bacc .subheader {
+
+
+    padding-top: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #438930;
+    font-size: 16px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 26px;
+    margin-right: 30px;
+}
+
+.header {
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contentheader {
+    margin-left: 300px;
+}
+
+.contentheader p {
+    font-size: 16px;
+    color: #438930;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 50px;
+    width: 120px;
+}
+
+.subheader h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.investor {
+    margin: 20px;
+    margin-bottom: 40px;
+    margin-left: 85px;
+}
+
+.investor h3 {
+    margin-left: 50px;
+}
+
+.petani h3 {
+    margin-right: 50px;
+}
+
+.pl1.l1 {
+    margin: 26px;
+}
+
+
+
+
+.pl1 h4 {
+    margin-bottom: 68px;
+}
+
+.pl1 img {
+    margin-left: 10px;
+    margin-bottom: 18px;
+}
+
+.pl1 {
+    float: left;
+    margin-right: 50px;
+}
+
+.pr1 {
+    float: right;
+    position: relative;
+    margin-top: -85px;
+    margin-right: 85px;
+}
+
+.belanja {
+    clear: both;
+}
+
+.petani {
+    margin: 20px;
+    margin-bottom: 40px;
+    margin-right: 55px;
+}
+
+.pr1 .petani h3 {
+    margin-bottom: 45px;
+}
+
+.investor h3 {
+    margin-bottom: 36px;
+}
+
+.pr1 h3 {
+    margin-left: 60px;
+}
+
+.pr1 h4 {
+    margin-left: 50px;
+}
+
+.r1 img {
+    margin-right: 60px;
+    margin-bottom: 8px;
+}
+
+.pr1 h4 {
+    margin-bottom: 68px;
+}
+
+.pr1 .r2 p {
+    margin-bottom: 10px;
+}
+
+.r2 h4 {
+    margin-top: 40px;
+}
+
+.r3 h4 {
+    margin-top: 25px;
+}
+
+.r3 img {
+    margin-bottom: 40px;
+}
+
+.r3 p {
+    margin-bottom: 110px;
+}
+
+.belanja h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.gabung {
+    clear: both;
+}
+
+.belanja p {
+    margin-top: 100px;
+}
+
+.belanja .btn {
+    margin-left: 300px;
+}
+
+.gabung .subheader h2 {
+    margin-top: 90px;
+}
+
+.gabung {
+    text-align: center;
+}
+
+.gabung img {
+    margin-top: 20px;
+}
+
+.gabung .bpeternak .btn {
+    width: 200px;
+}
+
+.gabung .bt .btn {
+    float: left;
+}
+
+.gabung .bt {
+    margin-left: 38%;
+}
+
+.gabung .bt p {
+    margin-left: 5px;
+}
+
+.gabung .btn {
+    margin-left: 10px;
+}
+
+.testimoni {
+    text-align: center;
+}
+
+.testimoni h2 {
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+
+.testimoni .tengah {
+    display: inline-block;
+    width: 35%;
+    height: 14cm;
+    background-color: #b5d274;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimoni .lr {
+    position: relative;
+    margin-top: -500px;
+    z-index: -1;
+}
+
+.testimoni .lr .kiri {
+    display: inline-block;
+    width: 35%;
+    height: 14cm;
+    background-color: #e1f1bd;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimoni .lr .kanan {
+    display: inline-block;
+    width: 35%;
+    height: 14cm;
+    background-color: #e1f1bd;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box {
+    width: 100%;
+    height: 250px;
+    background-color: #b8d280;
+    color: white;
+}
+
+.footer .investani {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.footer .support {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    float: left;
+
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.footer .hubungi {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    float: left;
+
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+.footer .logo img {
+    float: left;
+    clear: both;
+    margin: 70px;
+    float: left;
+
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+.footer h5 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    margin-left: 100px;
+}
+
+.imgbelanja img {
+
+    float: left;
+
+    margin-right: 60px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.hbelanja {
+    padding: 20px;
+}
+
+.hbelanja h2 {
+    font-size: 30px;
+}
+
+.row img {
+    margin-top: -30px;
+    margin-left: 255px;
+}
+
+
+.row p {
+    font-size: 18px;
+}
+
+.ijo {
+    width: 100%;
+    height: 450px;
+    margin-top: 90px;
+    background-color: #b1da7c;
+}
+
+
+
+.contentbarang {
+
+    float: right;
+}
+
+
+
+.ijo .row p {
+
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.ijo .row img {
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.subheader1 h2 {
+    text-align: center;
+    padding-top: 28px;
+    font-size: 50px;
+}
+
+
+.lbox {
+    width: 50%;
+    height: 745px;
+    background-color: #a8e54e;
+    float: left;
+}
+
+.rbox {
+    width: 50%;
+    height: 745px;
+    background-color: #47a52d;
+    float: right;
+}
+
+.lbox p {
+    text-align: center;
+    margin-top: 52px;
+    font-size: 16px;
+}
+
+.container {
+    margin: 50px;
+}
+
+.lbox img {
+    margin-left: 50px;
+}
+
+.btn-group {
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.contlogin h3 {
+    display: inline-block;
+    margin-left: 6px;
+    margin-top: 50px;
+    color: white;
+}
+
+.contlogin {
+    margin-left: 40px;
+}
+
+
+input[type=email],
+input[type=text],
+input[type=password] {
+    /*  width: 170px;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    border-style: none;
+    margin-bottom: 20px;
+    background-color: #47a52d;*/
+    width: 170px;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-style: none;
+    border: 2px;
+    background-color: #47a52d;
+}
+
+
+
+.verif {
+    margin: 20px;
+}
+
+
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 40px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome */
+    color: #161515;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #161515;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+    opacity: #161515;
+}
+
+:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: red;
+    opacity: #161515;
+}
+
+label {
+    font-size: 17px;
+}
+
+.modal-body p {
+    color: black;
+}
+
+.modal-content {
+    width: 1200px;
+}
+
+.modal-dialog {
+    margin-left: 100px;
+}
+
+.pl1 .l1 p {
+    color: #559347;
+}
+
+.l2 p {
+    color: #559347;
+}
+
+.l3 p {
+    color: #559347;
+}
+
+.pr1 p {
+    color: #559347;
+}
+
+.hijau p {
+    font-size: 23px;
+    line-height: 30px;
+    color: #438930;
+}
+
+.progheader p {
+    color: #85b75d;
+}
+
+.logo {
+    margin-top: -25px;
+    margin-left: 40px;
+    float: left;
+}
+
+
+.gabung p {
+    color: #438930;
+}
+
+.form-group {
+    text-decoration: none;
+}
+
+.radio h4 {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #a8e54e;
+}
+
+.testimoni h4 {
+    margin-top: 300px;
+}
+
+.testimoni p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer .flogo {
+    margin: 20px;
+}
+
+.footer img {
+    margin-right: 18px;
+}
+
+.investani h5 {
+    margin-right: 120px;
+}
+
+.support h5 {
+    margin-right: 120px;
+}
+
+.hubungi h5 {
+    margin-right: 120px;
+}
+
+.ffot h5 {
+    margin-right: 120px;
+}
+
+.copyright p {
+    font-size: 18px;
+    color: #E6E3E3;
+    padding-top: 40px;
+    margin-right: 30px;
+}
+
+
+.lelah a {
+    color: #a8e54e;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.lelah {
+    margin-bottom: 38px;
+}
+
+.modal-body img {
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 180px;
+}
+
+.modal-body .invesilus img {
+    float: left;
+}
+
+.modal-body p {
+
+    color: black;
+    font-size: 17px;
+    margin-top: 90px;
+}
+
+
+.imgin img {
+    margin-left: 380px;
+}
+
+
+h6 {
+    color: #47a52d;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.modal-content label {
+	color:#fff;
+}

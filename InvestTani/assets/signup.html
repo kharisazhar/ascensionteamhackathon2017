@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Invest Tani</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="lbox">
+            <p>
+                Silahkan gabung untuk melanjutkan
+                <br> kentungan bersama kami
+                <br>
+            </p>
+            <img src="images/login.png" alt="">
+        </div>
+        <div class="rbox">
+            <div class="btn-group">
+                <button type="button" class="btn btn-success">Daftar</button>
+                <button type="button" class="btn btn-success">Masuk</button>
+            </div>
+            <div class="contlogin">
+                <a href="#"><h3>Daftar</h3></a>
+                <h3>atau</h3>
+                <a href="#"><h3>Masuk</h3></a>
+            </div>
+            <form action="/action_page.php">
+                <div class="container">
+                    <label><b>Email</b></label>
+                    <input type="text" placeholder="Masukan Email" name="email" required>
+                    
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Masukan Password" name="psw" required>
+                    
+                    <label><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Ulangi Password" name="psw-repeat" required>
+
+                    <div class="radio">
+
+                    <label class="radio-inline"><input type="radio" name="optradio">Petani/Peternak</label>
+  <label class="radio-inline"><input type="radio" name="optradio">Investor</label>
+  </div>
+                    
+                     <div class="verif">
+                    <p>Sudah punya akun?  <a href="#">Masuk</a></p>
+                    </div>
+
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
